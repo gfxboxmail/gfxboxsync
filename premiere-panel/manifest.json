@@ -1,0 +1,21 @@
+{
+  "name": "GFXBox Sync",
+  "version": "0.1.0",
+  "manifestVersion": 5,
+  "id": "com.gfxbox.sync",
+  "main": "index.html",
+  "type": "panel",
+  "host": {
+    "app": "PPRO",
+    "minVersion": "25.0"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "gfxbox-sync",
+      "label": { "default": "GFXBox Sync" },
+      "minimumSize": { "width": 340, "height": 480 },
+      "preferredDockedSize": { "width": 380, "height": 560 }
+    }
+  ]
+}
